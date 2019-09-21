@@ -52,9 +52,12 @@ public class ProductService
 
     public List<Product> getListById(Long id){ return productRepository.findProductById(id); }
 
-    public List<Product> getProductByDescription(String description){
+    public List<Product> getProductByDescription(String description) {
         return productRepository.findProductByDescription(description);
     }
 
+    public List<Product> getProductByNameAndDescription(String name, String description) {
+        return productRepository.findProductByNameAndDescription(name, description);
+    }
 
 }

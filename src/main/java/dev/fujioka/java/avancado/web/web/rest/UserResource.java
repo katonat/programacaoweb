@@ -76,5 +76,9 @@ public class UserResource {
         return userService.getUserById(id);
     }
 
+    @GetMapping("/user/loginfirstname/{login}/{firstName}")
+    public List<User> getUserbyLoginAndFirstName(@PathVariable String login, @PathVariable  String firstName) {
+        return userService.getUserbyLoginAndFirstName(login, firstName);
+    }
 
 }

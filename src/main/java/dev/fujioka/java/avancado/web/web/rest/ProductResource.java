@@ -63,5 +63,8 @@ public class ProductResource {
         return productService.getProductByDescription(description);
     }
 
-
+    @GetMapping(value = "/product/nameanddescription/{name}/{description}")
+    public List<Product> getProductByNameAndDescription(@PathVariable String name, @PathVariable String description){
+        return productService.getProductByNameAndDescription(name, description);
+    }
 }
