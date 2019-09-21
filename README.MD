@@ -2,12 +2,12 @@ Grupo:
 
 Nathalie Kato - 1710018589
 
-Gabriel Abrantes
+Gabriel Abrantes - 1520012669
 
-Yasmin Haianny
+Yasmin Haianny - 1710019069
 
-Alysson Morais
+Alysson Morais - 
 
-José Everaldo
+José Everaldo - 1710019410
 
-Thiago Dantas
+Thiago Dantas - 1710020054
